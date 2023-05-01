@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: secret-pod
-          image: testaccountcsa/trivy-experimentation:latest
+          image: testaccountcsa/trivy-experimentation:v1
           ports:
             - containerPort: 8080
